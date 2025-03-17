@@ -1,0 +1,92 @@
+.app {
+    background-color: hsl(211, 100%, 56%);
+}
+
+
+.block {
+    display: block;
+}
+
+.info-area {
+    padding: 0.2rem;
+    margin-top: 0.2rem;
+    border-radius: 5px;
+    font-size: 0.5rem;
+}
+
+.usr-msg {
+    padding: 0.2rem;
+    background-color: aqua;
+    color: black;
+    font-size:0.5rem;
+}
+
+.flex {
+    display: flex;
+    width: 10rem;
+    margin: auto;
+}
+
+.flex-y {
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.btn {
+    font-size: 0.7rem;
+    border-radius: 5px;
+    padding: 0.2rem 0.1rem;
+}
+
+.btn-x-size {
+    width: 95%;
+}
+
+.form label {
+    cursor: pointer;
+    font-size:0.7rem;
+}
+
+.form input {
+    border-radius: 5px;
+}
+
+form a {
+    color:hsl(211, 100%, 56%)
+}
+
+
+.form header {
+    font-size: 1.2rem;
+}
+
+.form p {
+    margin: 0;
+}
+
+.form {
+    outline: 1px dotted;    
+    background-color: hsl(210, 80%, 33%);
+    color: white;
+    padding: 0.5rem;    
+}
+
+.list {
+    list-style-type: none;
+    > li {
+        margin: 0.3rem 0;
+        outline: 1px dotted white;
+    }
+}
+

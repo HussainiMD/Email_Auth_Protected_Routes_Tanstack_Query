@@ -1,0 +1,48 @@
+{
+  "name": "fourth-app",
+  "version": "1.0.0",
+  "description": "this is my dedicated app to experiment with authentication and authorization",
+  "keywords": [
+    "hussaini",
+    "react",
+    "FEDevelopement",
+    "auth"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "parcel build src/index.html",
+    "start": "parcel serve src/index.html --lazy",
+    "clear-cache": "del .parcel-cache",
+    "clean": "del node_modules"
+  },
+  "homepage": "https://github.com/HussainiMD/front-end-development#readme",
+  "bugs": {
+    "url": "https://github.com/HussainiMD/front-end-development/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HussainiMD/front-end-development.git"
+  },
+  "license": "ISC",
+  "author": "Hussaini, MD",
+  "type": "commonjs",
+  "main": "app.js",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@tanstack/query-devtools": "^5.66.0",
+    "@tanstack/react-query": "^v5",
+    "fourth-app": "file:",
+    "json-server": "^0.17.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1"
+  }
+}
