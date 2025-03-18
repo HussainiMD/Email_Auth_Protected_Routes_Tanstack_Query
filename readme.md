@@ -1,4 +1,4 @@
-# Authentication & Route Protection. Data management using Tanstack Query
+# Authentication & Route Protection. Data management using Tanstack Query. A mock node server which supports Registraion, Signin and Posts API
 
 
 # Parcel
@@ -71,5 +71,8 @@
  - Install @babel/preset-react - to make JSX work in test cases
  - Include @babel/preset-react inside my babel config
  - npm i -D @testing-library/jest-dom
+
+Under API folder, we have server file, which is intended to start a mock server supporting registraion, login and posts api
+node server.js
  
 
