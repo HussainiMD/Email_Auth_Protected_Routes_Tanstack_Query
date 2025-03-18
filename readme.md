@@ -74,5 +74,9 @@
 
 Under API folder, we have server file, which is intended to start a mock server supporting registraion, login and posts api
 node server.js
+
+curl -X POST -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"password123\"}" http://localhost:3000/auth/register
+curl -X POST -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"password123\"}" http://localhost:3000/auth/signin
+curl -H "Authorization: Bearer 32750ad9744591b89586d56bd01181b78ed434b732cbd1a243e64cc146a570cb" http://localhost:3000/protected/posts
  
 
