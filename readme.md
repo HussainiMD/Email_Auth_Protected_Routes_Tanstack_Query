@@ -72,7 +72,13 @@
  - Include @babel/preset-react inside my babel config
  - npm i -D @testing-library/jest-dom
 
-Under API folder, we have server file, which is intended to start a mock server supporting registraion, login and posts api
+# Mock Backend APIs
+We are using a npm package called "json-server" to mock the backend api. It works exactly like any other backend CRUD apis except that it runs locally
+
+Under API folder, we have server file, which is intended to start a mock server supporting registraion, login and posts api work flows.
+
+To run the mock server go to "src" then to "api" folder and run this command
+
 node server.js
 
 curl -X POST -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"password123\"}" http://localhost:3000/auth/register
